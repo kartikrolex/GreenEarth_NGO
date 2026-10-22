@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenEarth Foundation | Eco & Sustainability NGO</title>
+    <!-- Linking Bootstrap CSS for responsive layout -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-nav sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🌱 GreenEarth Foundation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#drives">Upcoming Drives</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#calculator">Impact Calculator</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light text-white ms-2 px-3" href="#volunteer">Join as Volunteer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Nurture Nature for a Greener Tomorrow</h1>
+            <p class="lead mt-3">Empowering local communities through tree plantations, cleanup drives, and sustainability workshops.</p>
+            <div class="mt-4">
+                <a href="#volunteer" class="btn btn-success btn-lg me-3">Become a Volunteer</a>
+                <a href="#calculator" class="btn btn-light btn-lg">Calculate Your Impact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Who We Are</h2>
+            <p class="text-muted max-w-700 mx-auto">
+                GreenEarth Foundation is a grassroots non-profit dedicated to environmental conservation and community action[cite: 1, 3]. We bring together citizens, youth, and local organizations to protect our urban ecosystems[cite: 1, 3].
+            </p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="stat-card p-4 rounded shadow-sm">
+                        <h3 class="fw-bold text-success">1,500+</h3>
+                        <p class="mb-0">Trees Planted</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card p-4 rounded shadow-sm">
+                        <h3 class="fw-bold text-success">800+ kg</h3>
+                        <p class="mb-0">Plastic Waste Diverted</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="stat-card p-4 rounded shadow-sm">
+                        <h3 class="fw-bold text-success">450+</h3>
+                        <p class="mb-0">Active Volunteers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Upcoming Drives (Events Section) -->
+    <section id="drives" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Upcoming Community Drives</h2>
+            <div class="row g-4 mt-2">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Plantation</span>
+                            <h5 class="card-title fw-bold">Urban Tree Plantation Drive</h5>
+                            <p class="card-text text-muted">Join us this Sunday to plant 100+ native saplings in the local community park.</p>
+                            <p class="small text-muted mb-3">📍 Central Park | 🕒 Sun, 8:00 AM</p>
+                            <a href="#volunteer" class="btn btn-outline-success w-100">Register to Participate</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-dark mb-2">Cleanup</span>
+                            <h5 class="card-title fw-bold">Community Lake Cleanliness Campaign</h5>
+                            <p class="card-text text-muted">Help us clean single-use plastic waste around the neighborhood lake area.</p>
+                            <p class="small text-muted mb-3">📍 City Lake Promenade | 🕒 Sat, 7:00 AM</p>
+                            <a href="#volunteer" class="btn btn-outline-success w-100">Register to Participate</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <span class="badge bg-info text-dark mb-2">E-Waste</span>
+                            <h5 class="card-title fw-bold">E-Waste Collection & Recycling Drive</h5>
+                            <p class="card-text text-muted">Drop off old electronic devices, chargers, and batteries for safe recycling.</p>
+                            <p class="small text-muted mb-3">📍 Civic Center | 🕒 Sun, 10:00 AM</p>
+                            <a href="#volunteer" class="btn btn-outline-success w-100">Register to Participate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Interactive Impact Calculator Widget -->
+    <section id="calculator" class="py-5 text-white bg-dark-green">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3">Interactive Environmental Impact Calculator</h2>
+            <p class="lead">See how your contribution directly helps the environment!</p>
+            
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6 bg-white text-dark p-4 rounded shadow">
+                    <label for="treeRange" class="form-label fw-bold">If you plant or sponsor saplings:</label>
+                    <input type="range" class="form-range" min="1" max="50" value="5" id="treeRange" oninput="calculateImpact()">
+                    
+                    <div class="my-3">
+                        <span class="h4 text-success fw-bold" id="treeCount">5</span> <span class="h5">Trees Planted</span>
+                    </div>
+                    <hr>
+                    <div class="text-start">
+                        <p class="mb-1"><strong>CO₂ Absorbed:</strong> <span id="co2Result" class="text-success fw-bold">110</span> kg per year</p>
+                        <p class="mb-0"><strong>Oxygen Produced:</strong> <span id="oxygenResult" class="text-success fw-bold">580</span> kg per year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Volunteer & Support Form -->
+    <section id="volunteer" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card p-4 shadow-sm border-0">
+                        <h3 class="text-center fw-bold text-success mb-3">Get Involved</h3>
+                        <p class="text-center text-muted mb-4">Register as a volunteer or pledge support for our upcoming drives.</p>
+                        
+                        <form id="volunteerForm" onsubmit="handleFormSubmit(event)">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Full Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Mobile Number</label>
+                                    <input type="tel" class="form-control" placeholder="Enter mobile number" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label class="form-label fw-bold">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Enter email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Preferred Drive</label>
+                                    <select class="form-select" required>
+                                        <option value="">Select a drive...</option>
+                                        <option>Tree Plantation Drive</option>
+                                        <option>Lake Cleanliness Campaign</option>
+                                        <option>E-Waste Collection Drive</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">How would you like to help?</label>
+                                    <select class="form-select" required>
+                                        <option>Volunteering Time & Effort</option>
+                                        <option>Sponsoring Saplings / Equipment</option>
+                                        <option>Both Time and Support</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-success btn-lg w-100">Submit Registration</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="successAlert" class="alert alert-success mt-3 d-none text-center" role="alert">
+                            Thank you for joining GreenEarth! Our team will contact you shortly with drive details.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2026 GreenEarth Foundation | Built for Community Engagement Project</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
